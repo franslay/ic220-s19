@@ -112,7 +112,7 @@ Thus the addition of two negative numbers under sign and magnitude do create a
 *more* negative number, as we would hope.
 
 
-### One's Compliment
+### One's Complement
 
 Another representation of negative numbers is to keep the notion of the leading
 bit parity by inverting (flipping 0's to 1's, and vice-versa). Our table would
@@ -175,7 +175,7 @@ But there are some additions where this fails:
 ```
 
 
-Further, 0 is a bit weird. There are two of them! All in all, one's compliment
+Further, 0 is a bit weird. There are two of them! All in all, one's complement
 is getting us closer, and of course we can design our adder units to handle
 these cases, but it would be greater if there was another representation that 
 
@@ -254,7 +254,7 @@ start adding values together. For example,
  
 ```
 
-The two's compliment has the nice property that if there is a n-bit
+The two's complement has the nice property that if there is a n-bit
 representation, then a number `x` and its negation `~x` is defined by the
 formula below. (This is also where the name "two's complement" comes from.)
 
